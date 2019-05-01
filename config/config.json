@@ -1,0 +1,65 @@
+{
+
+  "development": {
+
+    "username": "admin",
+
+    "password": "admin",
+
+    "database": "test_db",
+
+    "host": "127.0.0.1",
+
+    "dialect": "mysql",
+
+
+
+    "define": {
+      "underscored": false,
+      "freezeTableName": false,
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      },
+      "timestamps": true
+    },
+
+
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+
+  },
+
+  "test": {
+
+    "username": "",
+
+    "password": null,
+
+    "database": "",
+
+    "host": "",
+
+    "dialect": "mysql"
+
+  },
+
+  "production": {
+
+    "username": "",
+
+    "password": null,
+
+    "database": "",
+
+    "host": "127.0.0.1",
+
+    "dialect": "mysql"
+
+  }
+
+}
